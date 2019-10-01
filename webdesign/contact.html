@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fitness & Diet Care | Home</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="images/icon.gif">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container"> 
+		<div class="header">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.gif" alt="logo"></a>
+			</div>
+		
+			<div class="rightHead">
+				<div class="searchLink">
+					<div class="search">
+						<div class="search-field">
+							<input type="text" value="" name="search" placeholder="Search ..." />
+						</div>
+						
+						<div class="search-button">
+							<input type="submit" onclick="location.href='https://www.google.com/?gws_rd=ssl';" value="Search"/>
+						</div>
+					</div>
+				</div>
+				
+				<div class="link">
+					<h3>Follow us:</h3>
+					<table class="table">
+						<tr>
+							<td class="tableitem"><a href="https://www.facebook.com"><img src="images/link/facebook.png" alt="facebook"></a></td>
+							<td class="tableitem"><a href="https://www.instagram.com"><img src="images/link/instagram.png" alt="instagram"></a></td>
+							<td class="tableitem"><a href="https://twitter.com/?lang=en"><img src="images/link/twitter.png" alt="twitter"></a></td>
+							<td class="tableitem"><a href="https://www.youtube.com/"><img src="images/link/youtube.png" alt="youtube"></a></td>
+						</tr>
+					</table>
+				</div>				
+			</div>
+		</div>
+		
+		<div class="menubar">
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="fitness.html">Fitness &#9662;</a>
+					<ul class="menu-hover">
+						<li><a href="fitness1.html">How it works</a></li>
+						<li><a href="fitness2.html">Compound exercise</a></li>
+					</ul>
+				</li>
+				<li><a href="diet.html">Diet &#9662;</a>				
+					<ul class="menu-hover">
+						<li><a href="diet1.html">Binge disorders</a></li>
+						<li><a href="diet2.html">Diet practices</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>	
+		</div>
+		
+		<div class="reminder">
+			<h1>Contact Us</h1>
+		</div>
+
+		<div class="mainc">
+			<div class="leftcon">
+				<h1>Send us a message</h1>
+				<br>
+				<form action="response.html" id="contact">
+					<label for="name">* Full Name : </label>
+					<input name="name" type="text" size="20" maxlength="35">
+					<br><br>
+					<label for="email">* Email : </label>
+					<input name="email" type="text" size="20" maxlength="35">
+					<br><br>
+					<label for="phone">* Phone Number : </label>
+					<input name="phone" type="number">
+					<br><br>
+					<label for="call">* Best Time To Call : </label>
+					<input type="radio" name="time" value="morning" checked>Morning
+					<input type="radio" name="time" value="noon">Noon
+					<input type="radio" name="time" value="evening">Evening
+					<br><br>
+					<label for="message">* Your Message : </label>
+					<br><br>
+					<textarea name="message" cols="65" rows="10"></textarea>
+					<br>
+				</form>
+				<button type="submit" form="contact" value="Submit">Submit</button>
+				<button type="reset" form="contact" value="Reset">Reset</button>
+			</div>
+			
+			<div class="rightcon">
+				<h1>Our Contact</h1>
+				<ul>
+					<li>Email :-</li>
+					<hr>
+					<li>enquiry@fitnessdietcare.com</li>
+					<br><br>
+					
+					<li>Contact Number :-</li>
+					<hr>
+					<li>+50987654321</li>
+					<li>180 123 9009 (Toll Free)</li>
+					<br><br>
+								
+					<li>Opening Hours :-</li>
+					<hr>
+					<li>8am - 6pm (Mon - Wed)</li>
+					<li>9am - 5pm (Fri)</li>
+					<li>7am - 7pm (Sat)</li>
+					<li>Sun - OFF</li>
+					<br><br>
+					
+					<li>Find us at :-</li>
+					<hr>
+					<li>Site W Box 85 RR3</li>
+					<li>Elmvale</li>
+					<li>Ontario</li>
+					<li>L0L 1P0</li>
+					<li>Canada</li>
+					<br>
+					<li>
+						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:200px;width:220px;'>
+						<div id='gmap_canvas'></div><div><small><a href="http://embedgooglemaps.com">embed google </a></small></div><div><small><a href="https://privacypolicygenerator.info">privacy policy example</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(44.5836295,-79.86607470000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.5836295,-79.86607470000001)});infowindow = new google.maps.InfoWindow({content:'<strong>Fitness & Diet Care</strong><br>Site W Box 85 RR3 Elmvale Ontario L0L 1P0 Canada<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>&copy; 2016 - Fitness & Diet Care Copyright</p>
+	</div>
+</body>
+</html>

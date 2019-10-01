@@ -1,0 +1,53 @@
+@media (max-width: 1725px) {
+	.container {
+		width: 90%;
+		display: block;
+	}
+}
+
+@media (max-width: 1250px) {
+	.container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1165px) {	
+	.header {
+		display: block;
+		height: auto;
+		overflow: hidden;
+	}
+	
+	.header .rightHead {
+		display: block;
+	}
+	
+	.menu {
+		padding: 0;
+	}
+	
+	.menu li{
+		float: none;
+		display: block;
+		width: 100%;
+	}
+	
+	.menu-hover {
+		padding: 0;
+	}
+	
+	ul.menu-hover {
+		width: 100%;
+	}
+	
+	.welcome {
+		margin: 200px auto 30px auto;
+	}
+	
+	.left, .right {
+		float: none;
+		width: 90%;
+		height: auto;
+		margin: 30px auto;
+	}
+}
